@@ -1,0 +1,13 @@
+I"ô(function() {
+  var lender, status;
+
+  status = document.getElementsByClassName('status');
+
+  lender = document.getElementsByClassName('lender');
+
+  if (status.text === "Not available") {
+    lender.css("display", "block");
+  }
+
+}).call(this);
+:ET
