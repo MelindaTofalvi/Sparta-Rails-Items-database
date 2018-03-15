@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ItemProject</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  	<nav>
+  		<a href="https://www.spartaglobal.com/">Sparta Global</a>
+	    <a href="/">Items</a>
+	    <a href="/items/new">New Item</a>
+	</nav>
+
+    <%= yield %>
+  </body>
+</html>
